@@ -9,8 +9,6 @@ node example.js
     require("../lib/mootools-serverside").apply(GLOBAL);
     require("../lib/HashClass").apply(GLOBAL);
 
-    var assert = require("assert");
-
     var Person = new HashClass();
     var person = new Person({ name: 'anup', title: 'HashClass' });
 
